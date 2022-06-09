@@ -28,7 +28,7 @@ const Navbar = () => {
             <li className="nav-item">
               {/* <Link to="/*" className="nav-link active text-white" aria-current="page"href="Raju-Resume-2022.pdf" download="Raju-Resume-2022.pdf">Download Resume</Link> */}
               <a class="btn btn-primary active text-white "  href="Raju-Resume-2022.pdf" download="Raju-Resume-2022.pdf">
-                Dawnload Reasume
+              Download Resume
               </a>
             </li>
           </ul>
