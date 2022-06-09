@@ -10,27 +10,27 @@ const ContactMe = () => {
         e.target.reset()
     }
     return (
-        <div className='container border'
+        <div className='container border shadow-lg p-3 mb-5 bg-body  rounded-3'
             style={{
                 marginTop: "50px",
                 width: '50%',
-                backgroundImage: `url('https://png.pngtree.com/thumb_back/fh260/background/20210814/pngtree-blue-purple-simple-gradient-background-image_760572.jpg')`,
+                // backgroundImage: `url('https://png.pngtree.com/thumb_back/fh260/background/20210814/pngtree-blue-purple-simple-gradient-background-image_760572.jpg')`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover'
             }}>
             <h2 className='mt-3'>Contact me</h2>
-            <form className='row'
-             style={{ margin: "25px 85px 75px 100px" }}
+            <form className='row '
+             style={{ margin: "25px auto",padding:"5px" }}
              onSubmit={sendEmail}
              >
                 <label>Name</label>
-                <input type="text" name='name' placeholder='Your Name' className='from-control' />
+                <input type="text" name='name' placeholder='Your Name' className='from-control p-1' />
 
                 <label>Email</label>
-                <input type="email" name='user_name' placeholder='Enter Your Email' className='from-control' />
+                <input type="email" name='user_name' placeholder='Enter Your Email' className='from-control p-1' />
 
                 <label>Message</label>
-                <textarea name="message" rows="4" placeholder='Write Message' className='from-control' />
+                <textarea name="message" rows="4" placeholder='Write Message' className='from-control p-1' />
 
                 <input type="submit"
                     value="Send"

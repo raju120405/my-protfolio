@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Resume from './Resume/Resume';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-primary ">
       <div className="container-fluid container">
-        <a className="navbar-brand text-white" href="#">Raju Ahmed</a>
+        <a className="navbar-brand text-white" href="/home">Raju Ahmed</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -27,9 +28,7 @@ const Navbar = () => {
           <ul className="navbar-nav fw-bolder fs-5">
             <li className="nav-item">
               {/* <Link to="/*" className="nav-link active text-white" aria-current="page"href="Raju-Resume-2022.pdf" download="Raju-Resume-2022.pdf">Download Resume</Link> */}
-              <a class="btn btn-primary active text-white "  href="Raju-Resume-2022.pdf" download="Raju-Resume-2022.pdf">
-              Download Resume
-              </a>
+              <Resume></Resume>
             </li>
           </ul>
 
