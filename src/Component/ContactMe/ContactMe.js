@@ -18,7 +18,7 @@ const ContactMe = () => {
                 backgroundPosition: 'center',
                 backgroundSize: 'cover'
             }}>
-            <h2 className='mt-3'>Contact me</h2>
+            <h4 className='mt-3'>Contact me</h4>
             <form className='row '
              style={{ margin: "25px auto",padding:"5px" }}
              onSubmit={sendEmail}

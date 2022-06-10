@@ -10,6 +10,7 @@ const HeaderSection = () => {
                     <div className="h6 text-uppercase">Font-End Web Developer</div>
 
                     <div>
+                    
                         <a class="mt-2 btn btn-primary active text-white " href="Raju-Resume-2022.pdf" download="Raju-Resume-2022.pdf">
                             Download Resume
                         </a>

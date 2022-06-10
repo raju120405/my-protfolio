@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
     return (
         <div className='container'>
-            <h3 className='mt-5 '> Projects</h3>
+            <h4 className='mt-5 '> Projects</h4>
             <div class="row ml-25 d-flex justify-content-around ">
                 <div class="card shadow p-3 mb-5 bg-body rounded" style={{ width: "18rem" }}>
                     <img src="https://i.ibb.co/c6DHwq5/Screenshot-2022-06-09-211715.png" class="card-img-top img-fluid" alt="..." />
